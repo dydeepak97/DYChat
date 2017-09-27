@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 messageUser.setText(model.getMessageUser());
 
                 //Formatting Date before showing
-                messageTime.setText(android.text.format.DateFormat.format("dd-MM-yyyy (HH:mm:ss)",
+                messageTime.setText(android.text.format.DateFormat.format("dd-MM-yy (HH:mm:ss)",
                         model.getMessageTime()));
             }
         };
