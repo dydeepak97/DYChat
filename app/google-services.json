@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "733273324453",
+    "firebase_url": "https://dychat-bab1a.firebaseio.com",
+    "project_id": "dychat-bab1a",
+    "storage_bucket": "dychat-bab1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733273324453:android:58853894cbf6cda0",
+        "android_client_info": {
+          "package_name": "com.dy.dychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733273324453-ed14rj2os8hshall50ih435iqo1se6vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dy.dychat",
+            "certificate_hash": "99324810c6e0e4e51a78fa4512e991b4afd203e9"
+          }
+        },
+        {
+          "client_id": "733273324453-7h1j891i2inbfgks6qoc9ben287dcqn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfd9Z4EvOs1ECnUY0ckqi6LEMo92lyz_E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733273324453-7h1j891i2inbfgks6qoc9ben287dcqn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
