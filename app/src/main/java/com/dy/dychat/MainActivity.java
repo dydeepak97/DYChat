@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             //Welcome User Toast
-            Toast.makeText(this, "Welcome" + FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Welcome " + FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), Toast.LENGTH_LONG).show();
 
             displayChatMessages();
         }
@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void populateView(View v, ChatMessage model, int position) {
             //Get reference to the view of message.xml
-                TextView messageText = (TextView)findViewById(R.id.message_text);
-                TextView messageUser = (TextView)findViewById(R.id.message_user);
-                TextView messageTime = (TextView)findViewById(R.id.message_time);
+                TextView messageText = (TextView) v.findViewById(R.id.message_text);
+                TextView messageUser = (TextView) v.findViewById(R.id.message_user);
+                TextView messageTime = (TextView) v.findViewById(R.id.message_time);
 
                 //set text on layout
                 messageText.setText(model.getMessageText());
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
-                            Toast.makeText(MainActivity.this, "YOuhave been Signed Out", Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "You have been Signed Out", Toast.LENGTH_LONG).show();
 
                         //Close activity
                          finish();
